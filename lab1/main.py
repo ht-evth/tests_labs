@@ -33,8 +33,8 @@ def getMoreSpaces(msg: str):
    while len(msg) < 12:
       msg += ' '
    return msg
-
-def printMatrix(matrix, len, isGurvic=False, isProbs=False, isVald=False, isSavidge=False):
+e
+def printMatrix(matrix, len, isGurvic=False, isProbs=False, isVald=False, isSavidge=Fals):
    """Красивая печать таблицы"""
 
   # print('\t', end='')
@@ -254,8 +254,3 @@ def main():
    SavidgeCriterion(riskMatrix)
    GurvicCriterion(matrix, E)
    gurvicRisk(riskMatrix, L)
-
-
-
-
-
